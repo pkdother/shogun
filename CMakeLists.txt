@@ -53,8 +53,8 @@ SET(LIBSHOGUN_SRC_DIR ${CMAKE_SOURCE_DIR}/src/shogun)
 SET(COMMON_MODULAR_SRC_DIR ${CMAKE_SOURCE_DIR}/src/interfaces/modular/)
 
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/src
-	${CMAKE_SOURCE_DIR}/src/shogun
 	${CMAKE_BINARY_DIR}/src
+	${CMAKE_SOURCE_DIR}/src/shogun
 	${CMAKE_BINARY_DIR}/src/shogun)
 
 # check whether any of the modular interfaces are turned ON
